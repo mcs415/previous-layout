@@ -1,0 +1,162 @@
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/main.css">
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>MCS Blog's Home Page</title>
+            <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="responsive-header.css">
+            <link rel="stylesheet" href="css/main.css">
+        </head>
+        <body>
+            <header>
+                <div class="container container-nav">
+                    <div class="site-title">
+                        <h1>mcs</h1>
+                        <p class="subtitle">A blog for everyone else</p>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="https://nodemailer-mcs.herokuapp.com/">contact</a></li>
+                            <li><a href="https://mcs415.github.io/blog/photo.html">photos</a><li>
+                        </ul>
+                    </nav>
+                </div><!-- div container -->
+            </div>
+            </header>
+
+    <main>
+        <!-- <section class="about"> -->
+            <div class="container">
+                <p id="test"></p>
+                <script>
+                var date = new Date();
+                document.getElementById("test").innerHTML = date;
+                </script>
+                    <h2>mv [OPTION]... [-T] SOURCE DEST</h2>
+                    <p><time datetime="2019-12-12">Dec. 12, 2019</time></p>
+            <figure>
+                <img src="images/profile2.jpeg" width="25%" height="150"/>
+                <img src="images/sfurbandictionaryweb.jpg" width="25%" height="150"/>
+                <img src="images/morganhill.jpg" width="25%" height="150"/>
+            </figure>
+            <h3>About Me</h3>
+            <p>Hello internet.  My name is Morgan, and this is my home page.  I on the outskirts of the bay area.  I enjoy learning.  I'm currently studying the introduction to computer science.  I generally watch a lot of video lecture on youtube.  This website for example, although it had taken many previous attempts to get here can be found on Free Code Camp's course on Responsive Web Design and can be found at <a href="https://www.youtube.com/watch?v=srvUrASNj0s">Kevin Powell's Responsive Web Design.</a>  I encourage you to check it out as well as Brad Traversy's terrific tutorial on a <href="https://www.youtube.com/watch?v=nF9g1825mwk">Send Emails with Nodemailer</a>.  I also received some help on stack overflow by Daniel Schrodinger and some other various videos on posting my form to heroku for deployment. Whatever your interests I sincerely wish you the best in life. </p>
+                <div class="btn">
+                <a href="mailto:msippel415@gmail.com"><button type="button">Contact Me</button></a>
+                </div>
+
+                <section class="eighth-article">
+                        <h2>Get_String.c</h2>
+                        <p><time datetime="2019-12-22">Sunday, December 22, 2019</time></p>
+                        <p> This is a basic example of how to retrieve a string from the user is C programming language. C programming language was created in 1974 by Dennis Ritchie and Brian Kernagin.  It is the backbone of the Unix operating system.
+                        <pre><code>
+                        #include &lt;stdio.h&gt;
+                        #define MAX 15 &lt;stdio.h&gt;
+                        int main()
+                        {
+                            printf("type a string, limit to 15 characters.\n");
+                            char *s = fgets(s, MAX, stdin);
+                            char *t = malloc(strlen(s) + 1);
+                            for (int i = 0, n = strlen(s); i < n + 1; i++)
+                            {
+                                t[i] = s[i];
+                            }
+                            printf("%s\n", s);
+                            printf("%s\n", t);
+                            return 0;
+                        }
+                        </code></pre></p>
+                </section>
+
+                <section class="seventh-article">
+                        <h2>Twelve Steps of Recovery</h2>
+                        <p><time datetime="2019-12-21">Saturday, December 21, 2019</time></p>
+                        <p>I have been going to meetings on and off since I was twenty.  Here is link to the twelve steps of alcoholics anonymous.  I believe addict or not, the twelve steps can help you navigate through your spiritual matters. <a href="images/12steps.jpg"> 12 steps of alcoholics anonymous. </a></p>
+                </section>
+
+        <section class="sixth-article">
+                <h2>2020 voting time</h2>
+                <p><time datetime="2019-12-18">Tuesday, December 18, 2019</time></p>
+                <p>This form of capitalism we currently see in America doesnt't work for me.  The inequality of wealth leaves not enough opportunity for the many.  Due to it's competition model, a strong argument, capitalism is supposed to produce progression and prosperity, as we have seen before.  However because of the rich driving down wages, raising rents while pinching pennys keeping consumer necessities available, the majority find it hard to create organize change if there basic needs are being met. Those who would of opened up businesses find it to high of a risk, profit margins are too thin for small startups, I believe we especially find this in the manufacturing sector, and I don't mean outsourcing!  I believe what we see today in America is stagnation in our economy due to this and while I'm glad I don't live in a facist communist regime, even though sometimes I do feel as if I live in a fascist regime. A viable solution would be focused toward thinking about a non-partisan or atleast incorporating another party, free market, social democracy.  One idea that I found intereting is over time as government fails to provide and the citizens who got taking advantage of would peacefully begin to take up slack, the government would turn a blind eye eventually leading to the dissolution of government, wouldn't it be nice if eventually the same would occur with borders. Bernie Sander would be my pick if I didn't feel like I was throwing away my vote; a topic for another day.
+                </p>
+        </section>
+
+        <section class="fifth-article">
+                <h2>Link to Worldwide Public Webcams</h2>
+                <p><time datetime="2019-12-12">Tuesday, December 17, 2019</time></p>
+                <ul>
+                    <li><a href="https://www.webcamtaxi.com/en/">webcamtaxi</a></li><li><a href="https://www.timeanddate.com/time/map/">timeanddate.com</a>
+                </ul>
+        </section>
+
+        <section class="fourth-article">
+                    <h2>More Fun Links: High Quality Free Images</h2>
+                    <p><time datetime="2019-12-17">Tuesday, December 17, 2019</time></p>
+                <ul>
+                    <li><a href="https://www.pexels.com/">Pexels</a></li>
+                    <li><a href="https://gratisography.com/">Gratisography</a></li>
+                    <li><a href="https://unsplash.com/">Unsplash</a></li>
+                </ul>
+        </section>
+
+        <section class="third-article">
+                <h2>Programming Resources</h2>
+                <p><time datetime="2019-12-15">Dec. 15, 2019</time></p>
+                <ul>
+                    <li><a href="https://www.debian.org/">Debian</a></li>
+                    <li><a href="https://www.w3schools.com/">w3 schools</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/">mdn docs</a></li>
+                    <li><a href="https://www.youtube.com/playlist?list=PLypxmOPCOkHXbJhUgjRaV2pD9MJkIArhg">shellwave youtube channel in C</a></li>
+                    <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm">mit 6.00</a></li>
+                    <li><a href="https://cs50.harvard.edu/">harvard's cs50</a></li>
+                    <li><a href="https://www.freecodecamp.org/learn">free code camp</a></li>
+                    <li><a href="https://www.khanacademy.org/">khan academy</a></li>
+                    <li><a href="https://atom.io/">Atom Hackable Text Editor for 21st Century</a></li>
+                    <li><a href="https://github.com/">Github</a></li>
+                    <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+                    <li><a href="https://talkpython.fm/">Talk Python To Me: Podcast</a></li>
+                </ul></p>
+        </section>
+
+        <section class="second-article">
+            <div class="container">
+                    <h2>Hybrid Commuter Bike</h2>
+                    <p><time datetime="2019-12-12">Dec. 12, 2019</time></p>
+                <figure>
+                    <a href="images/jamiscommuter.jpg"><img src="images/jamiscommuter.jpg" height="175" width="250"></a>
+                    <a href="images/mikeskynardspecialized.jpg"><img src="images/mikeskynardspecialized.jpg" height="175" width="250"></a>
+                </figure>
+                <p>  This is a $100 craigslist bike I bought.  It's a 6061 aluminum framed Jamis, Commuter 3.  It somehow lost its nifty nexus hub. Current single speed gearing is 38t x 20t, that yields a 1.9:1 gear ratio sort of slow on the flats. I'm going to try a smaller 16t cog in the back and Ill end up getting a higher top speed, more difficult ride on the hills.  That ratio will be 2.375:1. Here is more about this: <a href="https://surlybikes.com/info_hole/spew/spew_single-speed_gearing_101">Surly Single Speed gearing</a>
+                Im staying in Morgan Hill home to Specialized Bikes. The picture of the man up above is Mike Sinyard the owner of Specialized.  Yesterday I saw a large crowd of competive cyclists heading towards the backroads.</p>
+                <div class="subscribe">
+                <h4 class="subscribe">subscribe to our newsletter</h4>
+                <form class="form">
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+                </form>
+        </section>
+    </div>
+</main>
+
+
+<script src="js/main.js"></script>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154715107-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-154715107-1');
+</script>
+
+    </body>
+</html>
